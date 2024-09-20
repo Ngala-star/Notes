@@ -1,19 +1,35 @@
 @import "https://unpkg.com/open-props";
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background: var(--gradient-5);
   height: 100vh;
 }
+.container{
+  padding-block: 40px;
+  padding-inline: 50px;
+}
+.header{
+  margin-block: 20px;
+  font-size: var(--font-size-5);
+}
 .header span {
   padding-left: 15px;
 }
+.content-container{
+  margin-block: 20px;
+}
 .btn {
-  padding-block: 8px;
-  padding-inline: 20px;
+  padding-block: 20px;
+  padding-inline: 50px;
   border: none;
-  border-radius: 6px;
+  border-radius: var(--radius-4);
   background: var(--gradient-3);
-  font-size: var(--font-size-3);
+  font-size: var(--font-size-5);
   cursor: pointer;
 }
 .input-box {
@@ -27,7 +43,9 @@ body {
   margin-bottom: 10px;
   border-radius: var(--radius-2);
   outline: none;
+  font-size: var(--font-size-4);
 }
+
 
 .input-box span {
   position: absolute;
