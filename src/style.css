@@ -1,0 +1,37 @@
+@import "https://unpkg.com/open-props";
+
+body {
+  background: var(--gradient-5);
+  height: 100vh;
+}
+.header span {
+  padding-left: 15px;
+}
+.btn {
+  padding-block: 8px;
+  padding-inline: 20px;
+  border: none;
+  border-radius: 6px;
+  background: var(--gradient-3);
+  font-size: var(--font-size-3);
+  cursor: pointer;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  min-height: 100px;
+  background-color: var(--gray-3);
+  padding-block: 4px;
+  padding-inline: 8px;
+  margin-bottom: 10px;
+  border-radius: var(--radius-2);
+  outline: none;
+}
+
+.input-box span {
+  position: absolute;
+  bottom: 15px;
+  right: 12px;
+  cursor: pointer;
+}
