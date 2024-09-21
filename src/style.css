@@ -7,11 +7,13 @@
 }
 body {
   background: var(--gradient-5);
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 .container{
-  padding-block: 40px;
-  padding-inline: 50px;
+  padding-inline: auto;
+  padding-block: 20px;
 }
 .header{
   margin-block: 20px;
