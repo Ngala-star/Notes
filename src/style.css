@@ -33,7 +33,6 @@ body {
   cursor: pointer;
 }
 .input-box {
-  position: relative;
   width: 100%;
   max-width: 400px;
   min-height: 100px;
@@ -45,11 +44,17 @@ body {
   outline: none;
   font-size: var(--font-size-4);
 }
+.inner-container{
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  min-height: 110px;
+}
 
 
-.input-box span {
+.inner-container span {
   position: absolute;
-  bottom: 15px;
-  right: 12px;
+  bottom: 10px;
+  right: -16px;
   cursor: pointer;
 }
